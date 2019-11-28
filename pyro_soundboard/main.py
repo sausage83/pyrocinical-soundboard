@@ -1,14 +1,8 @@
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel
 from PyQt5.QtGui import QIcon, QImage, QPixmap
 from PyQt5.QtCore import pyqtSlot, QSize
-import vlc
 import sys
-import os
-
-os.system('pip install python-vlc')
-os.system('pip3 install python-vlc')
-os.system('pip install PyQt5')
-os.system('pip3 install PyQt5')
+import vlc
 
 class App(QWidget):
 
